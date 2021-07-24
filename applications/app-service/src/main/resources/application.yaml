@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: "arquitecturaLimpia"
+  devtools:
+    add-properties: false
+  profiles:
+    include: null
+  data:
+    mongodb:
+      uri: "mongodb+srv://FrankOrtegon:sofka1234@sofka.3mcv4.mongodb.net/user_db?retryWrites=true&w=majority"
